@@ -6,7 +6,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 497,
+    "value": 7620,
     "unit": "",
     "alarm": {
       "value": 0,
@@ -33,8 +33,8 @@
       "limits": {
         "lolo": 1,
         "low": 1,
-        "high": 100,
-        "hihi": 110
+        "high": 3,
+        "hihi": 4
       },
       "notify": {
         "name": "",
@@ -49,12 +49,12 @@
     "value": 500,
     "unit": "uS",
     "alarm": {
-      "value": 2,
+      "value": 0,
       "limits": {
-        "lolo": 1,
-        "low": 1,
-        "high": 1000,
-        "hihi": 2000
+        "lolo": 300,
+        "low": 400,
+        "high": 600,
+        "hihi": 700
       },
       "notify": {
         "name": "",
@@ -71,10 +71,10 @@
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": 1,
-        "low": 1,
-        "high": 12,
-        "hihi": 12
+        "lolo": 6,
+        "low": 7,
+        "high": 9,
+        "hihi": 10
       },
       "notify": {
         "name": "",
@@ -91,9 +91,9 @@
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": 1,
-        "low": 1,
-        "high": 12,
+        "lolo": 8,
+        "low": 9,
+        "high": 11,
         "hihi": 12
       },
       "notify": {
@@ -126,14 +126,14 @@
   "magnitude": {
     "action": "reading",
     "type": "scalar",
-    "unit": "unit",
+    "unit": "kV",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 300,
-        "hihi": 300
+        "lolo": -0.2,
+        "low": -0.1,
+        "high": 5,
+        "hihi": 5.1
       },
       "notify": {
         "name": "",
@@ -141,19 +141,19 @@
         "time": 0
       }
     },
-    "value": 84.59
+    "value": 1.42
   },
   "inPhase": {
     "action": "reading",
     "type": "scalar",
-    "unit": "unit",
+    "unit": "kV",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -100,
-        "low": -100,
-        "high": 100,
-        "hihi": 100
+        "lolo": -6,
+        "low": -6,
+        "high": 6,
+        "hihi": 6
       },
       "notify": {
         "name": "",
@@ -161,19 +161,19 @@
         "time": 0
       }
     },
-    "value": -25.35
+    "value": 0.91
   },
   "quadPhase": {
     "action": "reading",
     "type": "scalar",
-    "unit": "unit",
+    "unit": "kV",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -100,
-        "low": -100,
-        "high": 100,
-        "hihi": 100
+        "lolo": -6,
+        "low": -6,
+        "high": 6,
+        "hihi": 6
       },
       "notify": {
         "name": "",
@@ -181,7 +181,7 @@
         "time": 0
       }
     },
-    "value": 80.71
+    "value": 1.03
   },
   "phase": {
     "action": "reading",
@@ -201,12 +201,12 @@
         "time": 0
       }
     },
-    "value": 107.4
+    "value": 48.5
   },
   "mVec": {
     "action": "reading",
     "type": "vector",
-    "unit": "unit",
+    "unit": "kV",
     "value": [
       [],
       []
@@ -215,7 +215,7 @@
   "iVec": {
     "action": "reading",
     "type": "vector",
-    "unit": "unit",
+    "unit": "kV",
     "value": [
       [],
       []
@@ -224,7 +224,7 @@
   "qVec": {
     "action": "reading",
     "type": "vector",
-    "unit": "unit",
+    "unit": "kV",
     "value": [
       [],
       []
