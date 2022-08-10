@@ -1,0 +1,7 @@
+MQTTSUBSCRIBE=mirrotron/llrf-scope/01/setting/#
+MQTTCLIENTID=mirrotron-llrf-scope-01
+MQTTSERVERIP=xxx
+MQTTUSERNAME=yyy
+MQTTPASSWORD=zzz
+PM2NAME=llrf-scope-01
+NODEREDCONFIGSECRET=aaa
